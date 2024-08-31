@@ -6,7 +6,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tasktroveprojects/Splash_Screen.dart';
 import 'package:provider/provider.dart';
 import 'package:tasktroveprojects/screens/Theme/ThemeProvider.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +14,7 @@ Future<void> main() async {
     
     await Firebase.initializeApp( 
       options: FirebaseOptions(
-        apiKey: dotenv.env['API_KEY']!, 
+        apiKey: "AIzaSyBuDxMqaJkS2b6t-saVBUxsivF97zhZGQc", 
         appId: "1:741440101599:android:777eeafd2033c7f701dd6a", 
         messagingSenderId: "741440101599",    
         projectId: "tasktrove-76a6b",
