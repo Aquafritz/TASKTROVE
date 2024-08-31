@@ -203,7 +203,7 @@ class _SignInScreenState extends State<SignInScreen> {
                             ),
                             Text('Remember Me'),
                             SizedBox(
-                              width: 55,
+                              width: 140,
                             ),
                             Container(
                               alignment: Alignment.centerRight,
